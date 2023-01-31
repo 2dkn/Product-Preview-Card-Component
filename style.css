@@ -9,24 +9,22 @@
 }
 
 .section {
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .container {
-  max-width: 30rem;
-  padding: 20rem auto;
-  margin: 0 auto;
-  height: 10rem;
-  overflow: hidden;
-  position: relative;
+  /* padding: 0; */
 }
 
 .product {
+  overflow: hidden;
+  width: 40rem;
+  margin: 0 auto;
+  height: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: bisque;
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.15);
-  height: 25rem;
   border-radius: 11px;
 }
 
@@ -52,18 +50,19 @@
   padding-top: 2rem;
   display: flex;
   gap: 12px;
+  font-size: 2rem;
 }
 
-
-.price {
-
+.price p:last-child {
+  font-size: small;
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block;
   text-decoration: none;
   font-size: 2rem;
   position: absolute;
   padding: 1.rem 2rem;
-  border-radius: 5px;
+  border-radius: 5px; */
+  
 }
