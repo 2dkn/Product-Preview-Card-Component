@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: beige;
+}
+
+.section {
+  padding-top: 20rem;
+}
+
+.container {
+  max-width: 30rem;
+  padding: 20rem auto;
+  margin: 0 auto;
+  height: 10rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: bisque;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.15);
+  height: 25rem;
+  border-radius: 11px;
+}
+
+.img {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.context {
+ padding: 1rem;
+}
+
+.header {
+  padding-top: 2rem;
+}
+
+.text {
+  padding-top: 2rem;
+}
+
+.price {
+  padding-top: 2rem;
+  display: flex;
+  gap: 12px;
+}
+
+
+.price {
+
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  position: absolute;
+  padding: 1.rem 2rem;
+  border-radius: 5px;
+}
