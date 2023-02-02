@@ -4,25 +4,28 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   background-color: beige;
 }
 
-.section {
-  padding-top: 10rem;
+main {
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
-.container {
-  /* padding: 0; */
+.container-text{
+max-width: 13em;
 }
 
 .product {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
   overflow: hidden;
   width: 40rem;
-  margin: 0 auto;
   height: 30rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   background-color: #fff;
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
@@ -30,6 +33,7 @@
 }
 
 .img {
+  width: 50rem;
   background-image: url(images/image-product-desktop.jpg);
   background-size: cover;
   background-position: center;
@@ -38,14 +42,19 @@
 .context {
  padding: 1rem;
 }
+/* position: relative; */
 
 .header {
   padding-top: 2rem;
   font-weight: 600;
+  font-family:"Fraunces", sans-serif;
 }
 
 .text {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  line-height: 1.8;
+  color: #495057;
+ 
 }
 
 .price {
@@ -53,7 +62,8 @@
   display: flex;
   gap: 12px;
   font-size: 2rem;
-  position: relative;
+  font-family: "Fraunces", sans-serif;
+  color: rgb(10, 90, 79)
 }
 
 .price p:last-child {
@@ -64,12 +74,19 @@
   /* position: absolute; */
 }
 
+.container-btn {
+  padding-top: 1.9rem;
+  /* height:  */
+  ;
+}
+
 .btn {
-  display: flex;
+  /* display: flex; */
   text-decoration: none;
   border-radius: 9px;
   padding: 1rem 1rem;
   border: none;
   cursor: pointer;
   font-family: sans-serif;
+  width: 16rem
 }
