@@ -71,14 +71,14 @@ html {
   /* padding-top: 1.9rem; */
   line-height: 1.9;
   color: #5a6979;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
 
 .price {
   /* padding-top: 2rem; */
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   gap: 30px;
   font-size: 2rem;
@@ -111,17 +111,22 @@ html {
   border: none;
   cursor: pointer;
   font-family: "Rubik", sans-serif;
-  width: 15rem;
+  width: 16rem;
   color: #fff;
   background-color: rgb(38, 128, 105);
   /* margin-top: 15px; */
 }
 
+.btn:hover,
+.btn:active {
+  background-color: rgb(12, 82, 64);
+}
+
 .cart {
-position: relative;
-/* top: 20px; */
-right: -60px;
-bottom: -30px
+  position: relative;
+  /* top: 20px; */
+  right: -60px;
+  bottom: -16px;
 }
 
 path {
