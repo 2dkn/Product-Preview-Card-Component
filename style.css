@@ -1,11 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(252, 241, 233);
+  background-color: hsl(30, 38%, 92%);
 }
 
 html {
@@ -77,10 +79,10 @@ html {
 
 .text {
   margin-top: 12px;
-  font-size: 0.839rem;
+  font-size: 0.830rem;
   /* padding-top: 1.9rem; */
-  line-height: 1.9;
-  color: #969ca1;
+  line-height: 1.8;
+  color: hsl(228, 12%, 48%);
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
@@ -93,7 +95,7 @@ html {
   gap: 30px;
   font-size: 2rem;
   font-family: "Fraunces", sans-serif;
-  color: rgb(17, 121, 103);
+  color: hsl(158, 36%, 37%);
   align-items: center;
 }
 
@@ -128,7 +130,7 @@ html {
   width: 15rem;
   gap: 0.5rem;
   color: #fff;
-  background-color: rgb(38, 128, 105);
+  background-color: hsl(158, 36%, 37%);
   /* margin-top: 15px; */
   justify-content: center;
 }
